@@ -57,15 +57,12 @@ html {
     padding: 8rem 12rem 0rem 12rem;
     position: relative;
     z-index: 2;
-
 }
 
-/* .img-absolute-main {
-    position: absolute;
-    top: -180px;
-    left: 787px;
-    z-index: 1;
-} */
+.container-main img {
+    height: 485px;
+    width: 540px;
+}
 
 .container-main h2 {
     font-size: 5.8rem;
@@ -157,21 +154,14 @@ html {
     right: 90px;
 }
 
-/* .img-absolute-different {
-    position: absolute;
-    top: 1100px;
-    right: 1100px;
-} */
-
 /* main parte 2 */
 
 .testimonios section {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    flex-wrap: wrap;
     text-align: center;
-    overflow-x: scroll;
-    scroll-snap-type: proximity;
 }
 
 .avatar-text { 
@@ -213,10 +203,11 @@ html {
     height: 44px;
     border-radius: 50px;
     border: none;
-    margin: 3rem 0rem 14rem 0rem;
-    margin-left: 45%;
+    margin: 30px 0px 120px 0px;
     box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
     cursor: pointer;
+    margin-left: 50%;
+    transform: translateX(-50%);
 }
 
 .testimonios button:hover {
@@ -229,14 +220,12 @@ html {
 .form {
     background-color: #F3613C;
     color: white;
-    height: 224px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    flex-wrap: wrap;
     align-items: center;
-    padding: 0rem 10rem 0rem 10rem;
-    position: relative;
-    z-index: 2;
+    padding: 60px 120px 60px 120px;
 }
 
 .form button {
@@ -249,6 +238,7 @@ html {
     font-weight: bold;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
     cursor: pointer;
+    margin-top: 15px;
 }
 
 .form button:hover {
@@ -261,32 +251,21 @@ html {
     line-height: 4.8rem;
 }
 
-/* .img-absolute-form {
-    position: relative;
-    z-index: 1;
-    right: 550px;
-    top: 100px;
-} */
-
  /* footer */
 
 .container-footer {
     background-color: #1E1E26;
     color: white;
-    height: 247px;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    align-items: flex-start;
+    justify-content: space-between;
     flex-wrap: wrap;
-    padding-top: 40px;
-    position: relative;
-    z-index: 2;
+    padding: 60px 120px 60px 120px;
 } 
 
 .container-footer ul li {
     list-style: none;
-    padding: 1rem;
+    line-height: 30px;
     font-size: 1.6rem;
     cursor: pointer;
 } 
@@ -302,8 +281,8 @@ footer i:hover {
     color: #F3603B;
 }
 
-.logo {
-    padding-top: 1.5rem;
+footer div .logo {
+    padding-top: 5px;
 }
 
 footer button {
@@ -312,8 +291,8 @@ footer button {
     width: 63px;
     height: 42px;
     border-radius: 50px;
+    margin: 10px;
     border: none;
-    margin: 0.8rem;
     cursor: pointer;
 }
 
