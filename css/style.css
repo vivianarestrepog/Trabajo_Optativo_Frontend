@@ -17,11 +17,9 @@ html {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 7.5rem 12rem 0rem 12rem;
+    padding: 60px 120px 100px 120px;
     align-items: center;
     flex-wrap: wrap;
-    position: relative;
-    z-index: 2;
 }
 
 .container-header ul li {
@@ -54,21 +52,19 @@ html {
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
-    padding: 8rem 12rem 0rem 12rem;
-    position: relative;
-    z-index: 2;
+    padding: 0px 120px 100px 120px;
 }
 
 .container-main img {
-    height: 485px;
-    width: 540px;
+    max-height: 120%;
+    max-width: 120%;
 }
 
 .container-main h2 {
     font-size: 5.8rem;
     font-weight: bold;
     color: #232C50;
-    width: 480px;
+    max-width: 440px;
     line-height: 6rem;
 }
 
@@ -77,7 +73,7 @@ html {
     padding-bottom: 27px;
     padding-top: 27px;
     text-align: justify;
-    width: 360px;
+    max-width: 360px;
 }
 
 .container-main button {
@@ -101,25 +97,16 @@ html {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: flex-start;
     flex-wrap: wrap;
-}
-
-.container-different section {
-    margin-right: 8rem;
-    margin-left: 8rem;
-}
-
-.container-different section article {
-    margin: 4rem;
+    padding: 0px 120px 120px 120px;
 }
 
 .container-different h2 {
     color: #232851;
     font-size: 3.6rem;
     font-weight: bold;
-    padding: 3rem 0rem 2rem 0rem;
-    width: 430px;
+    padding: 30px 0px 20px 0px;
+    max-width: 430px;
     line-height: 114.6%;
 }
 
@@ -133,13 +120,13 @@ html {
 .container-different h2+p {
     color: #000000;
     font-size: 1.6rem;
-    width: 375px;
+    max-width: 375px;
 }
 
 .container-different h4+p {
     color: #B3B2B7;
     font-size: 1.6rem;
-    width: 430px;
+    max-width: 460px;
 }
 
 .container-different button {
@@ -178,7 +165,6 @@ html {
     color: #242E53;
     font-size: 35px;
     font-weight: bold;
-    padding-top: 80px;
     text-align: center;
 }
 
@@ -192,8 +178,8 @@ html {
 .testimonios p {
     color: #B9B9C1;
     font-size: 1.6rem;
-    padding: 1rem 1rem 2rem 1rem;
-    width: 450px;
+    padding: 10px 10px 20px 10px;
+    max-width: 450px;
 }
 
 .testimonios button {
@@ -203,7 +189,7 @@ html {
     height: 44px;
     border-radius: 50px;
     border: none;
-    margin: 30px 0px 120px 0px;
+    margin: 30px 0px 140px 0px;
     box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
     cursor: pointer;
     margin-left: 50%;
@@ -247,7 +233,7 @@ html {
 
 .form p {
     font-size: 4rem;
-    width: 500px;
+    max-width: 440px;
     line-height: 4.8rem;
 }
 
